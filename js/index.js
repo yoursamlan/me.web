@@ -83,7 +83,7 @@ function createCanvas(properties) {
 
 function writeText(canvas, context, text) {
   let size = 150;
-  context.font = size + "px 'baroneys',Nasalization,Lato, Comfortaa, Sans-serif";
+  context.font = size + "px 'ananda-namaste',Nasalization,Lato, Comfortaa, Sans-serif";
   context.fillStyle = "#f00";
   context.textAlign = "left";
   let lineheight = 170;
