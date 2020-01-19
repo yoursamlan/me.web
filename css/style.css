@@ -1,0 +1,187 @@
+@import url(https://fonts.googleapis.com/css?family=Quicksand:300,400,700);
+
+@import url("https://fonts.googleapis.com/css?family=Lato:200,300,400,600");
+
+
+.more-pens {
+  position: fixed;
+  left: 20px;
+  bottom: 20px;
+  z-index: 10;
+  font-family: "Montserrat";
+  font-size: 12px;
+}
+
+a.white-mode, a.white-mode:link, a.white-mode:visited, a.white-mode:active {
+  font-family: "Montserrat";
+  font-size: 12px;
+  text-decoration: none;
+  background: #212121;
+  padding: 4px 8px;
+  color: #f7f7f7;
+}
+a.white-mode:hover, a.white-mode:link:hover, a.white-mode:visited:hover, a.white-mode:active:hover {
+  background: #edf3f8;
+  color: #212121;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  background: #000000;
+}
+
+.more-pens {
+  position: fixed;
+  left: 20px;
+  bottom: 20px;
+  z-index: 10;
+  font-family: "Montserrat";
+  font-size: 12px;
+}
+
+a.white-mode, a.white-mode:link, a.white-mode:visited, a.white-mode:active {
+  font-family: "Montserrat";
+  font-size: 12px;
+  text-decoration: none;
+  background: #212121;
+  padding: 4px 8px;
+  color: #f7f7f7;
+}
+a.white-mode:hover, a.white-mode:link:hover, a.white-mode:visited:hover, a.white-mode:active:hover {
+  background: #edf3f8;
+  color: #212121;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  background: #000;
+  font-family: "Quicksand","Lato";
+}
+
+.title {
+  z-index: 20;
+  position: absolute;
+  left: 50%;
+  top: 85%;
+  height: 50px;
+  transform: translateX(-50%) translateY(-50%);
+  font-family: "Quicksand","Montserrat";
+  text-align: left;
+  width: 100%;
+  margin-left: auto;
+}
+.title h3 {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: left;
+  font-weight: 200;
+  font-size: 20px;
+  padding: 0;
+  margin-left: 5%;
+  line-height: 1;
+  color: #EEEEEE;
+  letter-spacing: 3px;
+}
+#dp{
+    left:0;
+    padding: 0;
+    margin:0;
+    width: 100%;
+    height: 120%;
+    
+}
+
+button {
+    transition: all .5s ease;
+    color: #fff;
+    border: 1px solid white;
+    font-family:'Lato','Montserrat', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 1;
+    font-size: 20px;
+    background-color : transparent;
+    padding: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    outline: none;
+    border-radius:16px;
+    margin:10px;
+}
+button:hover{
+    color: #001F3F;
+    background-color: #fff;
+}
+.bbar{
+    margin-left: 10%
+}
+
+.icon-bar {
+  position: fixed;
+  top: 50%;
+  right:0%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  z-index:1050;
+}
+
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 7px 13px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 20px;
+  animation: main 3s;
+  transform-origin: 100% 50%;
+
+}
+@keyframes main {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+.icon-bar a:hover {
+  background-color: #000;
+  transform: scale(1.1);
+  border-radius:2px;
+}
+
+.facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.google {
+  background: #333;
+  color: white;
+}
+
+.linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.youtube {
+  background: #bb0000;
+  color: white;
+}
+
